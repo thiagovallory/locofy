@@ -1,0 +1,345 @@
+.title {
+  margin: 0;
+  position: relative;
+  font-size: var(--dark-neg-ui-11-medium-size);
+  letter-spacing: 0.01em;
+  line-height: 14px;
+  font-weight: 500;
+  font-family: var(--dark-neg-ui-11-medium);
+  color: var(--figma-plugin-ds-dark);
+  text-align: left;
+  white-space: nowrap;
+}
+.titleWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+}
+.icon {
+  height: 10.7px;
+  width: 10.7px;
+  position: relative;
+}
+.header,
+.iconbutton {
+  display: flex;
+  flex-direction: row;
+}
+.iconbutton {
+  height: 30px;
+  width: 30px;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  align-self: stretch;
+  overflow: hidden;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: var(--padding-8xs) var(--padding-8xs) var(--padding-8xs)
+    var(--padding-base);
+  gap: var(--gap-xl);
+}
+.hr,
+.value {
+  position: relative;
+}
+.hr {
+  align-self: stretch;
+  height: 1px;
+  background-color: var(--color-gainsboro);
+  display: none;
+}
+.value {
+  flex: 1;
+  font-size: var(--dark-neg-ui-11-medium-size);
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  font-family: var(--dark-neg-ui-11-medium);
+  color: var(--black-8);
+  text-align: left;
+  white-space: nowrap;
+}
+.name {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-9xs) var(--padding-5xs)
+    var(--padding-5xs);
+}
+.value1 {
+  flex: 1;
+  position: relative;
+  font-size: var(--dark-neg-ui-11-medium-size);
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--dark-neg-ui-11-medium);
+  color: var(--black-8);
+  text-align: left;
+  white-space: nowrap;
+}
+.string {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+}
+.buttonIcon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.add {
+  background-color: var(--white);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttonIcon1 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.iconbutton1 {
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttonIcon2 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.delete {
+  background-color: var(--white);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.actions,
+.templatesNameValueActions {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.templatesNameValueActions {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow-x: auto;
+  padding: 0 var(--padding-5xs) 0 var(--padding-base);
+}
+.value2 {
+  flex: 1;
+  position: relative;
+  font-size: var(--dark-neg-ui-11-medium-size);
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  font-family: var(--dark-neg-ui-11-medium);
+  color: var(--black-8);
+  text-align: left;
+  white-space: nowrap;
+}
+.name1 {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-9xs) var(--padding-5xs)
+    var(--padding-5xs);
+}
+.cellValue {
+  flex: 1;
+  position: relative;
+  font-size: var(--dark-neg-ui-11-medium-size);
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--dark-neg-ui-11-medium);
+  color: var(--black-8);
+  text-align: left;
+  white-space: nowrap;
+}
+.string1 {
+  flex: 1;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) var(--padding-9xs) var(--padding-5xs)
+    var(--padding-5xs);
+}
+.buttonIcon3 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.add1 {
+  background-color: var(--white);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttonIcon4 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.remove {
+  background-color: var(--white);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.buttonIcon5 {
+  height: 32px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.delete1 {
+  background-color: var(--white);
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+.actions1,
+.templatesNameValueActions1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.templatesNameValueActions1 {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow-x: auto;
+  padding: 0 var(--padding-5xs) 0 var(--padding-base);
+}
+.icon1,
+.label {
+  position: relative;
+}
+.icon1 {
+  height: 12px;
+  width: 12px;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+.label {
+  font-size: var(--dark-neg-ui-11-medium-size);
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--dark-neg-ui-11-medium);
+  color: var(--color-black);
+  text-align: left;
+  white-space: nowrap;
+}
+.ghostbutton,
+.title1 {
+  display: flex;
+  align-items: center;
+}
+.ghostbutton {
+  border-radius: var(--br-10xs);
+  overflow: hidden;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-5xs);
+  gap: var(--gap-5xs);
+}
+.title1 {
+  width: 26px;
+  position: relative;
+  font-size: var(--dark-neg-ui-11-medium-size);
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  font-weight: 500;
+  font-family: var(--dark-neg-ui-11-medium);
+  color: var(--white);
+  text-align: center;
+  justify-content: center;
+  white-space: nowrap;
+}
+.buttonFrame {
+  border-radius: var(--br-7xs);
+  background-color: var(--blue);
+  overflow: hidden;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-xs);
+}
+.bottomActions,
+.button,
+.buttonFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-12xs) 0;
+  background-color: transparent;
+  justify-content: flex-start;
+}
+.bottomActions {
+  align-self: stretch;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-5xs);
+  gap: var(--gap-xl);
+}
+.manualDatasource {
+  margin: 0;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.2px;
+  line-height: normal;
+  letter-spacing: normal;
+}

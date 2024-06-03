@@ -1,0 +1,78 @@
+.name {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.nameWrapper {
+  width: 31px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.caretDownIcon,
+.caretDownIcon1 {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  display: none;
+}
+.value {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: 0.01em;
+  line-height: 16px;
+  white-space: nowrap;
+}
+.valueWrapper {
+  width: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5xs) 0 0;
+  box-sizing: border-box;
+}
+.actionsChild {
+  height: 13px;
+  width: 32px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.actions {
+  height: 32px;
+  flex: 1;
+  justify-content: flex-end;
+  z-index: 1;
+}
+.actions,
+.frameParent,
+.tableHeaderDefaultSorting {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent {
+  width: 173px;
+  justify-content: flex-start;
+  gap: var(--gap-11xs);
+}
+.tableHeaderDefaultSorting {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  justify-content: space-between;
+  padding: var(--padding-9xs) var(--padding-4xs) var(--padding-9xs)
+    var(--padding-base);
+  gap: var(--gap-xl);
+  text-align: right;
+  font-size: var(--dark-neg-ui-11-medium-size);
+  color: var(--black-4-new);
+  font-family: var(--dark-neg-ui-11-medium);
+}
